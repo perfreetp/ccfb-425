@@ -1,0 +1,54 @@
+{
+  "type": "FeatureCollection",
+  "name": "demo_buildings",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "进口超市", "height": 28 },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [121.47365, 31.23052],
+            [121.47395, 31.23052],
+            [121.47395, 31.23078],
+            [121.47365, 31.23078],
+            [121.47365, 31.23052]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "金融中心裙楼", "building_height": 72 },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [121.47410, 31.23090],
+            [121.47448, 31.23090],
+            [121.47448, 31.23125],
+            [121.47410, 31.23125],
+            [121.47410, 31.23090]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "酒店塔楼", "height": 95 },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [121.47330, 31.23100],
+            [121.47355, 31.23100],
+            [121.47355, 31.23130],
+            [121.47330, 31.23130],
+            [121.47330, 31.23100]
+          ]
+        ]
+      }
+    }
+  ]
+}

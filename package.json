@@ -1,0 +1,23 @@
+{
+  "name": "evtol-ols-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test:logic": "esbuild scripts/smoke.ts --bundle --platform=node --format=esm --outfile=node_modules/.cache/smoke.mjs --log-level=warning && node node_modules/.cache/smoke.mjs",
+    "test:e2e": "node scripts/e2e.mjs"
+  },
+  "dependencies": {
+    "jspdf": "^2.5.2",
+    "three": "^0.171.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.171.0",
+    "playwright": "^1.65.0",
+    "typescript": "~5.6.3",
+    "vite": "^6.0.7"
+  }
+}
